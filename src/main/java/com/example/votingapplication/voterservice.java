@@ -50,7 +50,7 @@ public class voterservice {
     	                                      .filter(vds -> vds.getlname().equals(name))
     	                                      .findFirst();
 
-    	    result.ifPresent(voter -> System.out.println("Found: " + voter.getname())); // Print the name if found
+    	    result.ifPresent(voter -> System.out.println("Found: " + voter.getname())); 
     	    return result;
     	}
      
