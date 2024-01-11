@@ -16,7 +16,7 @@ public class voterlogincontroller {
 	  @GetMapping("/Register")
 	  public String register()
 	  {
-		  System.out.println("please help me");
+		  System.out.println("Hello welcome to github");
 		  return "logindetails";
 	  }
 	  @PostMapping("/submitdetails")
